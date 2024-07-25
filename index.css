@@ -116,7 +116,7 @@ body {
   text-align: center;
   border-radius: 10px;
 }
-.card__social-item:hover {
+.card__social-item:hover, .card__social-item:focus {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 12%);
   cursor: pointer;

@@ -71,7 +71,8 @@
       border-radius: 10px;
       @extend %text-preset-2;
 
-      &:hover {
+      &:hover,
+      &:focus {
         background-color: $green;
         color: $grey-800;
         cursor: pointer;
