@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Social links profile</title>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="card">
+        <div class="card__profile">
+          <img
+            class="card__profile-image"
+            src="./assets/images/avatar-jessica.jpeg"
+            alt="profile picture of jessica randall"
+          />
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+          <div class="card__profile-info">
+            <h1 class="card__profile-name">Jessica Randall</h1>
+            <p class="card__profile-location">London, United Kingdom</p>
+          </div>
+          <p class="card__profile-description">
+            "Front-end developer and avid reader."
+          </p>
+        </div>
+        <div class="card__social">
+          <a class="card__social-item">Github</a>
+          <a class="card__social-item">Frontend Mentor</a>
+          <a class="card__social-item">LinkedIn</a>
+          <a class="card__social-item">Twitter</a>
+          <a class="card__social-item">Instagram</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/laura-nguyen/qr-code-component"
+          >Laura Nguyen</a
+        >.
+      </div>
+    </footer>
+  </body>
 </html>

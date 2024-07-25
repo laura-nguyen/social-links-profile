@@ -1,0 +1,24 @@
+@use "typography" as *;
+@use "variables" as *;
+@use "mixins" as *;
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $white;
+}
+
+body {
+  background-color: $grey-900;
+  height: 100vh;
+}
+
+h1 {
+  @extend %text-preset-1;
+}
+
+p {
+  @extend %text-preset-3;
+}

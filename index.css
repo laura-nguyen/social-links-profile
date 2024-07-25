@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype"), url("assets/fonts/static.Inter-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype"), url("assets/fonts/static.Inter-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype"), url("assets/fonts/static.Inter-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+h1 {
+  font-size: 1.5rem;
+  line-height: 150%;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.card__profile-location, .card__social-item {
+  font-size: 0.875rem;
+  line-height: 150%;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 150%;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+@media (min-width: 1440px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+@media (min-width: 375px) {
+  .card {
+    width: clamp(20.4375rem, 5vw + 20rem, 24rem);
+  }
+}
+.card__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.card__profile-image {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+}
+@media (min-width: 1440px) {
+  .card__profile-image {
+    margin-top: 1rem;
+  }
+}
+.card__profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+.card__profile-location {
+  color: hsl(75, 94%, 57%);
+}
+.card__social {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+.card__social-item {
+  background-color: hsl(0, 0%, 20%);
+  width: 100%;
+  padding: 0.75rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.card__social-item:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=index.css.map */

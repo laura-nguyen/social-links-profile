@@ -1,0 +1,50 @@
+@use "variables" as *;
+
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype"),
+    url("assets/fonts/static.Inter-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: $font-weight-400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype"),
+    url("assets/fonts/static.Inter-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: $font-weight-600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype"),
+    url("assets/fonts/static.Inter-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: $font-weight-700;
+}
+
+// Header
+%text-preset-1 {
+  font-size: 1.5rem;
+  line-height: 150%;
+  font-weight: $font-weight-600;
+  font-style: normal;
+}
+
+// Link
+%text-preset-2 {
+  font-size: 0.875rem;
+  line-height: 150%;
+  font-weight: $font-weight-600;
+  font-style: normal;
+  text-decoration: none;
+}
+
+// Paragraph
+%text-preset-3 {
+  font-size: 0.875rem;
+  line-height: 150%;
+  font-weight: $font-weight-400;
+  font-style: normal;
+}
