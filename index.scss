@@ -21,13 +21,16 @@
 
   background-color: $grey-800;
   padding: 1.5rem;
-
-  border-radius: 1.25rem;
+  border-radius: 0.9375rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+
+  @include desktop {
+    padding: 2.5rem;
+  }
 
   &__profile {
     display: flex;
@@ -39,9 +42,6 @@
       width: 5.5rem;
       height: 5.5rem;
       border-radius: 50%;
-      @include desktop {
-        margin-top: 1rem;
-      }
     }
 
     &-info {
@@ -68,7 +68,7 @@
       width: 100%;
       padding: 0.75rem;
       text-align: center;
-      border-radius: 10px;
+      border-radius: 0.4375rem;
       @extend %text-preset-2;
 
       &:hover,

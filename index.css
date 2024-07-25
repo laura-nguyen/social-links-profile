@@ -66,7 +66,7 @@ body {
 .card {
   background-color: hsl(0, 0%, 12%);
   padding: 1.5rem;
-  border-radius: 1.25rem;
+  border-radius: 0.9375rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,6 +76,11 @@ body {
 @media (min-width: 375px) {
   .card {
     width: clamp(20.4375rem, 5vw + 20rem, 24rem);
+  }
+}
+@media (min-width: 1440px) {
+  .card {
+    padding: 2.5rem;
   }
 }
 .card__profile {
@@ -88,11 +93,6 @@ body {
   width: 5.5rem;
   height: 5.5rem;
   border-radius: 50%;
-}
-@media (min-width: 1440px) {
-  .card__profile-image {
-    margin-top: 1rem;
-  }
 }
 .card__profile-info {
   display: flex;
@@ -114,7 +114,7 @@ body {
   width: 100%;
   padding: 0.75rem;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 0.4375rem;
 }
 .card__social-item:hover, .card__social-item:focus {
   background-color: hsl(75, 94%, 57%);
