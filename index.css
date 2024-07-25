@@ -14,19 +14,19 @@
   font-family: "Inter";
   src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype"), url("assets/fonts/static.Inter-Bold.ttf") format("truetype");
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
 }
 h1 {
   font-size: 1.5rem;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
 }
 
 .card__profile-location, .card__social-item {
   font-size: 0.875rem;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   text-decoration: none;
 }
